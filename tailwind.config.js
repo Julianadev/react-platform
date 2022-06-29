@@ -9,11 +9,11 @@ module.exports = {
         blur: 'url(/src/assets/blur-background.png)'
       },
       screens: {
-        sm: '640px',
+        sm: '620px',
         md: '768px',
         lg: '1024px',
         xl: '1280px',
-        xxl: '1440px',
+        xxl: '2560px',
       },
       fontFamily: {
         sans: 'Roboto, sans-serif',

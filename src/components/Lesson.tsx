@@ -34,7 +34,7 @@ export function Lesson(props: LessonProps) {
       >
         <header className="sm:flex items-center justify-between">
           {isLessonAvailable ? (
-            <span className={classNames('text-sm font-medium flex items-center gap-2', {
+            <span className={classNames('text-sm font-medium sm:flex items-center gap-2', {
               'text-white': isActiveLesson,
               'text-blue-500': !isActiveLesson,
             })}>
